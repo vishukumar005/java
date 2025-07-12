@@ -11,5 +11,6 @@ public class Question3 {
 
     float totalBill = (pencilPrice + penPrice + eraserPrice) * 1.18f;
     System.out.println("Total Bill: "+totalBill);
+    sc.close();
   }
 }

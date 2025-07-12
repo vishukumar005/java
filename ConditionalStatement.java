@@ -19,5 +19,6 @@ public class ConditionalStatement {
      else {
       System.out.println("NOt adult");
     }
+    sc.close();
   }
 }

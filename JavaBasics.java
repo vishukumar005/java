@@ -17,7 +17,7 @@ public class JavaBasics{
     int a = 10;
     int b = 5;
     int sum = a + b;
-    String name = "Vishal kumar singh";
+    // String name = "Vishal kumar singh";
     
     System.out.println("a = "+a+" b = "+b+" sum = "+sum);
 
@@ -44,7 +44,7 @@ public class JavaBasics{
     System.out.println(var);
     float price = 10.4f;
     System.out.println(price);
-    int number = 24;
+    // int number = 24;
     //long (used for big integers)
     //double (used for big decimal number)
 
@@ -110,6 +110,8 @@ public class JavaBasics{
       // sourcecode.java -> compiler -> Bytecode.class -> Jvm -> Natve code
 
       //Java is portable language because it run on any system
+
+      sc.close();
 
   }
 }

@@ -8,6 +8,7 @@ public class AverageOf3Number {
     int c = sc.nextInt();
     float avg = (a + b + c) / 3.0f;
     System.out.println("Average of these 3 numbers = "+avg);
+    sc.close();
 
   }
 }

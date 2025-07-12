@@ -12,5 +12,6 @@ public class largestOfTwoNum {
     } else {
       System.out.println("B is larges of 2");
     }
+    sc.close();
   }
 }

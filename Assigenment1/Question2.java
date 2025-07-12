@@ -7,5 +7,6 @@ public class Question2 {
     int side = sc.nextInt();
     int area = side * side;
     System.out.println("Area: "+area);
+    sc.close();
   }
 }
