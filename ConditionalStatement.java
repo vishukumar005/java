@@ -23,6 +23,27 @@ public class ConditionalStatement {
     //variable = condition ? statement1 : statement2;
     int larger = ( 5 > 3) ? 5: 3;
     System.out.println(larger);
+
+    //Switch Statement
+    /*
+     * switch(variable) {
+      * case 1:
+      * case 2:
+      * case 3:
+      * default :
+     * }
+     */
+
+     int number = 2;
+     switch(number) {
+      case 1: System.out.println("Samosa");
+              break;
+      case 2: System.out.println("Burger");
+              break;
+      case 3: System.out.println("Mango Shake");
+              break;
+      default:  System.out.println("WE wake up");
+     }
     sc.close();
   }
 }

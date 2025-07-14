@@ -13,6 +13,7 @@ public class Largestof3 {
     } else {
       System.out.println("Largest is "+c);
     }
+    sc.close();
   }
   
 }
