@@ -19,10 +19,12 @@ public class ConditionalStatement {
      else {
       System.out.println("NOt adult");
     }
+    sc.close();
     //ternary Operator
     //variable = condition ? statement1 : statement2;
     int larger = ( 5 > 3) ? 5: 3;
     System.out.println(larger);
+    
 
     //Switch Statement
     /*
@@ -44,6 +46,6 @@ public class ConditionalStatement {
               break;
       default:  System.out.println("WE wake up");
      }
-    sc.close();
+  
   }
 }
